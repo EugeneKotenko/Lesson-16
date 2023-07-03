@@ -1,0 +1,29 @@
+.image-container {
+  position: relative;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#prev-btn,
+#next-btn {
+  border: 1px solid rgb(54, 155, 244);
+  background-color: rgb(134, 192, 243);
+  color: rgb(6, 36, 104);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#prev-btn {
+  left: 2%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#next-btn {
+  right: 2%;
+  padding: 10px;
+  border-radius: 5px;
+}
